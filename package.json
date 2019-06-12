@@ -1,0 +1,23 @@
+{
+  "name": "typescript-complete-course",
+  "version": "1.0.0",
+  "description": "https://www.udemy.com/course/understanding-typescript/",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rconway/typescript-complete-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rconway/typescript-complete-course/issues"
+  },
+  "homepage": "https://github.com/rconway/typescript-complete-course#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.3"
+  }
+}
