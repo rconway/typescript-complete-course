@@ -1,5 +1,15 @@
+console.log(`Page loading at ${new Date()}`)
 
-let myName: string = "fred"
-myName = "rac"
+const adder = function (x: number, y: number): number {
+    return x + y;
+}
+console.log(adder(10, 20));
 
-console.log(`Hello, ${myName}! at ${new Date()}`)
+const mult = (x: number, y: number) => x * y;
+console.log(mult(10, 20));
+
+const greet = () => console.log("hello");
+greet();
+
+const greetFriend = (friend: string) => console.log(`hello ${friend}`);
+greetFriend("fred");
