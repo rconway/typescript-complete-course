@@ -19,5 +19,8 @@
   "homepage": "https://github.com/rconway/typescript-complete-course#readme",
   "devDependencies": {
     "lite-server": "^2.5.3"
+  },
+  "dependencies": {
+    "systemjs": "^0.21.6"
   }
 }
